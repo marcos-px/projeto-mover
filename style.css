@@ -7,6 +7,9 @@
     text-decoration: none;
 }
 
+body{
+    max-width: 1280px;
+}
 
 /*menu*/
 .dropdown{
@@ -111,6 +114,7 @@ ul{
 .slider img{
     width: 80%;
     border-radius:40px;
+    margin-top: 40px;
 }
 
 .slider a{
@@ -124,5 +128,98 @@ text-align: center;
 }
 
 /*ultimas noticias*/
+.news{
+    background: #f7c96d1d;
+}
+.news h2{
+    margin-top: 40px;
+    font-size: 60px;
+    padding: 40px;
+    text-align: left;
+    color: #1c263c;
+}
+
+.news h2 span{
+    color: #ff4d00;
+}
 
 
+.news-1{
+    display: flex;
+    padding: 18px;
+}
+
+.news-1 div{
+    width: 80%;
+}
+.news-2{
+    display: flex;
+    padding: 18px;
+}
+
+.news-mother img{
+margin-top: 12%;
+border-radius: 40px;
+margin-right: 12px;
+}
+.news-mother h3{
+    color: #1c263c;
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 800;
+    
+}
+
+.news-mother p{
+    margin-top:40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.news-mother button{
+    padding: 20px;
+    border-radius: 62px;
+    margin-top: 40px;
+    margin-left: 20%;
+    background-color: #ff4d00;
+    border: none;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+}
+#esp-img{
+    margin-left: 20px;
+}
+
+.news-mother button span{
+    padding: 20px;
+font-size: 30px;
+color: #fff;
+font-weight: 400;
+}
+
+.news-mother button:hover{
+    padding: 30px;
+    margin-left: 20%;
+    background-color: #1c263c;
+}
+/*mover explica*/
+.explication{
+    background-color: #FFF;
+    padding: 5%;
+}
+
+.explication h2{
+    margin-top: 40px;
+    font-size: 60px;
+    text-align: left;
+    color: #1c263c;
+}
+
+.explication h2 span{
+    color: #ff4d00;
+}
