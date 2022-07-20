@@ -167,6 +167,7 @@ margin-right: 12px;
     font-size: 40px;
     margin-top: 40px;
     font-weight: 800;
+    font-weight: 700;
     
 }
 
@@ -216,10 +217,77 @@ font-weight: 400;
 .explication h2{
     margin-top: 40px;
     font-size: 60px;
+    font-weight: 700;
     text-align: left;
-    color: #1c263c;
+    color: #ff4d00;
 }
 
 .explication h2 span{
-    color: #ff4d00;
+    color: #1c263c;
+}
+
+#explication-p{
+    margin-top: 20px;
+    font-size:20px;
+    font-weight: 600;
+    color: #1c263c;
+}
+.exp-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp-1 div{
+    padding: 20px;
+    width: 80%;
+}
+.exp-1 img{
+    width: 98%;
+    border-radius: 62px;
+}
+
+.exp-1 h3{
+    color: #1c263c;
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 800;
+    font-weight: 700;
+    
+}
+
+.exp-1 p{
+    margin-top:40px;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.exp-1 button{
+    padding: 20px;
+    border-radius: 62px;
+    margin-top: 40px;
+    margin-left: 20%;
+    background-color: #ff4d00;
+    border: none;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.exp-1 button span{
+    padding: 20px;
+font-size: 30px;
+color: #fff;
+font-weight: 400;
+
+}
+
+.exp-1 button:hover{
+    padding: 30px;
+    margin-left: 20%;
+    background-color: #1c263c;
 }
