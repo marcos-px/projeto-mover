@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{  font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/*menu*/
+.dropdown{
+    width: 230px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 2%;
+}
+
+.dropdown > a{
+    border-radius: 2px;
+    box-shadow: 0 6px 5px -5px rgba(0,0,0,0.3);
+}
+
+.dropdown > a::after{
+    content: "";
+    float: right;
+    margin: 15px 15px 0 0;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #f7ca6d;
+}
+
+.dropdown ul{
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    box-shadow:0 6px 5px -5px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.dropdown a{
+    display: block;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff4d00;
+    background-color: #ffff;
+}
+
+.dropdown li{
+    height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+}
+
+.dropdown li:first-child a{
+    border-radius: 2px 2px 0 0;
+}
+
+.dropdown li:last-child a{
+    border-radius: 0 0 2px 2px;
+  }
+
+  .dropdown li:first-child a::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #EEE;
+    margin: -10px 0 0 30px;
+  }
+
+  .dropdown a:hover{
+    background-color: #EEE;
+    color: #1c263c;
+  }
+
+  .dropdown > a:hover::after{
+    border-top-color: #f7ca6d;
+  }
+  .dropdown li:first-child a:hover::before {
+    border-bottom-color: #f7ca6d;
+  }
+  
+  .dropdown.hover:hover li{
+    height: 40px;
+  }
+
+ /*inicial carrousel*/ 
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+.slider img{
+    width: 80%;
+    border-radius:40px;
+}
+
+.slider a{
+    text-decoration: none;
+}
+
+.slider a span{
+color: #ff4d00;
+font-size: 30px;
+text-align: center;
+}
+
+/*ultimas noticias*/
+
+
