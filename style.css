@@ -13,7 +13,7 @@ body{
 
 /*menu*/
 .dropdown{
-    width: 230px;
+    width: 250px;
     display: inline-block;
     margin-right: 10px;
     position: relative;
@@ -53,7 +53,7 @@ body{
     padding: 0 0 0 10px;
     text-decoration: none;
     line-height: 40px;
-    font-size: 13px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     color: #ff4d00;
@@ -290,4 +290,70 @@ font-weight: 400;
     padding: 30px;
     margin-left: 20%;
     background-color: #1c263c;
+}
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background: #1c263c14;
+}
+
+.list-menu-footer li{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.list-menu-footer li a {
+    color: #ff4d00;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.list-menu-footer li a:hover{
+    color: #1c263c;
+    transition-delay: 10ms;
+}
+
+.footer-cascata{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+hr{
+
+    margin-left: 200px;
+}
+
+.certifica{
+    margin-left: 140px;
+
+}
+
+h4{
+    color: #ff4d00;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.certifica p{
+    font-size: 20px;
+}
+
+.sobre-footer{
+    margin-left: 20%;
+
+}
+
+.sobre-footer h4{
+    font-size: 20px;
+    color: #000;
+    font-weight: 200;
+    margin-left: 0;
+    margin-top: 40px;
+    
 }
