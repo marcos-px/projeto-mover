@@ -300,6 +300,7 @@ font-weight: 400;
     justify-content: space-between;
     width: auto;
     background: #1c263c14;
+    width: 100%;
 }
 
 .list-menu-footer li{
