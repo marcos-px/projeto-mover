@@ -20,6 +20,16 @@ body{
 }
 
 /*menu*/
+.menu-list-block{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow:2px 2px 2px 1px rgb(255, 255, 255);
+    border-radius: 0px;
+    z-index: var(--z-index-top); /*Alteração para fixar o menu no topo*/
+    --z-index-top: 9999;
+}
 .dropdown{
     width: 250px;
     display: inline-block;
@@ -300,14 +310,15 @@ margin-top: 40%;}
     display: flex;
     justify-content: space-between;
     width: auto;
-    background: #1c263c14;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .list-menu-footer li{
     margin-left: 20px;
     text-decoration: none;
     list-style-type: none;
+    margin-top: 10px;
 }
 
 .list-menu-footer li a {
@@ -379,4 +390,25 @@ hr{
 }
 .sobre-footer{
     padding-top: 20px;
+}
+
+#hr-footer{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 2%;
+    align-items: center;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid red;
+    background-color: #dddddd;
+}
+
+.contato,div span{
+    font-size: 30px;
+    color:#ff4d00;
+    margin-left: 10px;
+}
+
+.mail-a{
+    margin-top: 20px;
 }
