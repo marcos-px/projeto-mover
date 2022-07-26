@@ -12,10 +12,10 @@ body{
 }
 
 .gif{
-    max-width: 100%;
     margin-left: 12%;
-    margin-top: 40px;
+    margin-top: 60px;
     cursor: pointer;
+    width: 100%;
 
 }
 
@@ -110,38 +110,12 @@ body{
     height: 40px;
   }
 
- /*inicial carrousel*/ 
-ul{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-left: 40px;
-    list-style-type: none;
-}
-
-.slider img{
-    width: 80%;
-    border-radius:40px;
-    margin-top: 40px;
-}
-
-.slider a{
-    text-decoration: none;
-}
-
-.slider a span{
-color: #ff4d00;
-font-size: 30px;
-text-align: center;
-}
 
 /*ultimas noticias*/
-.news{
-    background: #f7c96d1d;
-}
+
 .news h2{
     margin-top: 40px;
-    font-size: 60px;
+    font-size: 50px;
     padding: 40px;
     text-align: left;
     color: #1c263c;
@@ -152,36 +126,34 @@ text-align: center;
 }
 
 
-.news-1{
+.news-1, .news-2{
     display: flex;
     padding: 18px;
-}
-
-.news-1 div{
-    width: 80%;
-}
-.news-2{
-    display: flex;
-    padding: 18px;
+    max-width: 80%;
 }
 
 .news-mother img{
 margin-top: 12%;
 border-radius: 40px;
-margin-right: 12px;
+margin-right: 18px;
+width: 280px;
+align-items:center;
+margin-left: 20px;
 }
 .news-mother h3{
     color: #1c263c;
-    font-size: 40px;
+    font-size: 25px;
     margin-top: 40px;
     font-weight: 800;
     font-weight: 700;
+    text-align: center;
+    margin-right: 10px;
     
 }
 
 .news-mother p{
     margin-top:40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: 400;
     margin-left: 20px;
@@ -191,17 +163,21 @@ margin-right: 12px;
 .news-mother button{
     padding: 20px;
     border-radius: 62px;
-    margin-top: 40px;
-    margin-left: 20%;
+    margin-top: 20%;
+    margin-left: 40px;
     background-color: #ff4d00;
     border: none;
     position: relative;
     text-decoration: none;
     cursor: pointer;
-    align-items: center;
 }
-#esp-img{
-    margin-left: 20px;
+
+#third-btn{
+    margin-top: 36%;
+}
+
+#sec-btn{
+    margin-left: 50px;
 }
 
 .news-mother button span{
@@ -216,6 +192,15 @@ font-weight: 400;
     margin-left: 20%;
     background-color: #1c263c;
 }
+
+#btn-five{
+    margin-top: 23%;
+
+}
+
+#btn-six{
+    margin-top: 30%;
+}
 /*mover explica*/
 .explication{
     background-color: #FFF;
@@ -225,7 +210,7 @@ font-weight: 400;
 .explication h2{
     margin-top: 40px;
     font-size: 60px;
-    font-weight: 700;
+    padding: 40px;
     text-align: left;
     color: #ff4d00;
 }
@@ -236,7 +221,7 @@ font-weight: 400;
 
 #explication-p{
     margin-top: 20px;
-    font-size:20px;
+    font-size:30px;
     font-weight: 600;
     color: #1c263c;
 }
@@ -250,8 +235,9 @@ font-weight: 400;
     width: 80%;
 }
 .exp-1 img{
-    width: 98%;
+    width:100%;
     border-radius: 62px;
+    margin-top: 30px;
 }
 
 .exp-1 h3{
@@ -284,6 +270,7 @@ font-weight: 400;
     cursor: pointer;
     align-items: center;
     margin-top: 100px;
+    
 }
 
 .exp-1 button span{
@@ -300,6 +287,12 @@ font-weight: 400;
     background-color: #1c263c;
 }
 
+#btn-exp1{
+    margin-top: 45%;
+}
+
+#btn-exp2{
+margin-top: 40%;}
 
 /*footer*/
 
@@ -314,6 +307,7 @@ font-weight: 400;
 .list-menu-footer li{
     margin-left: 20px;
     text-decoration: none;
+    list-style-type: none;
 }
 
 .list-menu-footer li a {
@@ -343,10 +337,11 @@ hr{
 
 }
 
-h4{
+.form-all{
     color: #ff4d00;
-    font-size: 30px;
+    font-size: 60px;
     margin-left: 20px;
+    max-width: auto;
 }
 
 .certifica p{
@@ -368,7 +363,20 @@ h4{
 }
 
 .hubspot{
-    width: 400px;
+    width: 600px;
     max-width: 200%;
     margin-top: 40px;
+
+}
+
+.footer-cascata h4{
+    font-size: 40px;
+    color: #ff4d00;
+}
+
+.footer-cascata img{
+    margin-top: 20px;
+}
+.sobre-footer{
+    padding-top: 20px;
 }
