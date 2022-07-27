@@ -120,6 +120,30 @@ body{
     height: 40px;
   }
 
+  label{
+    padding:5px;
+    background-color: #ff4d00;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+
+  }
+
+  #btn-mobile{
+    display: block;
+    color: #ff4d00;
+  }
+
+  .menu-list-block.active #menu{
+    display: flex;
+  }
+
+  pad-home img{
+    width: 80%;
+  }
 
 /*ultimas noticias*/
 
