@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     body {
       max-width: 400px;
     }
@@ -135,23 +135,144 @@ hr{
     padding: 10px;
 }
 }
-@media only screen and (min-width: 800px) {
-    body {
-      background-color: rgb(13, 17, 244);
-    }
-  @media only screen and (min-width: 1024px) {
-    body {
-      background-color: rgb(248, 76, 76);
-    }
-    label{
-        display: none;
-    }
-  }
 
-  @media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 768px) {
     body {
-      background-color: rgb(255, 255, 255);
+      max-width: 768px;
     }
-    label{
-        display: none;
-    }*/
+
+    .dropdown ul{
+        position: static;
+        overflow: hidden;
+        transition: all .4s;
+    }
+
+.gif img{
+max-width: 85%;
+align-items: center;
+}
+.link1 img{
+    width: 60%;
+}
+.dropdown{
+    width: 40%;
+    
+}
+.dropdown a{
+    font-size: 10px;
+    
+}
+.news{
+    margin-left: -130px;
+}
+.news h2{
+display: none;
+}
+
+
+.news-mother img{
+    width: 210px;
+    margin-left: 50px;
+}
+.news-mother h3{
+    font-size: 25px;}
+
+.news-mother p{
+        font-size: 20px;
+    }
+.news-mother button{
+    padding: 15px;
+    margin-left: 70px;
+    }
+
+.news-mother button span{
+    font-size: 20px;
+    padding: 5px;
+}
+.explication{
+    padding: auto;
+}
+.explication h2{
+    font-size: 30px;
+    margin-top: auto;
+    padding: 1px;
+}
+#explication-p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.exp-1 img{
+    width:80%;
+    border-radius: 32px;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+.exp-1 h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 1%;
+    text-align: center;
+}
+.exp-1 p{
+    margin-top:20px;
+    font-size: 15px;
+    text-align: center;
+}
+.exp-1 button{
+    padding: 2px;
+    border-radius: 32px;
+    margin-top: 10%;
+    margin-left: 25%;
+    position: static;
+}
+.exp-1 button span{
+    padding: 10px;
+    font-size: 15px;
+}
+.exp-1 button:hover{
+    padding: 5px;
+}
+
+hr{
+    max-width: 80%;
+}
+.form-initial h4{
+    font-size: 20px;
+    text-align: center;
+}
+.footer{
+    width: 80%;
+}
+.list-menu-footer li a {
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer img{
+    width: 60%;
+}
+.footer-cascata h4{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 12px;
+}
+.contato img{
+    width: 5%;
+}
+.contato span{
+    font-size: 18px;
+}
+.certifica h4{
+    margin-left: -100px!important;
+}
+.certifica img{
+    margin-left: -50px;
+    width: 90%;
+}
+#p-footer{
+    margin-left: -60px;
+}
+.news-mother button:hover{
+    padding: 10px;
+}
+}
+
