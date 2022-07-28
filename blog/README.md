@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="pics\Header Blog.png"></p>
+<img align="center" src="pics\readme\mover.png"></p>
 
 <p align="center">Projeto encomendado pela Mover Financeira.</p>
 <hr>

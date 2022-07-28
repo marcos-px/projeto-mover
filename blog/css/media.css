@@ -1,6 +1,6 @@
 @media only screen and (max-width: 480px) {
     body {
-      max-width: 400px;
+      max-width: 480px;
     }
 
     .dropdown ul{
@@ -28,6 +28,9 @@ align-items: center;
     font-size: 30px;
 }
 .news-1, .news-2, .exp-1,.footer, .footer-cascata{
+    display: block;
+}
+.explication{
     display: block;
 }
 .news-mother img{
