@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="pics\readme\mover.png"></p>
+<img align="center" src="readme\mover.png"></p>
 
 <p align="center">Projeto encomendado pela Mover Financeira.</p>
 <hr>
@@ -72,15 +72,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <h2>Responsividade para mobile </h2>
 <br>
 <p align="center">
-<img height="600px" src="pics\readme\celular.png" widht="400px"></p>
+<img height="600px" src="readme\celular.png" widht="400px"></p>
 
 <h2>Responsividade para tablet</h2>
 <p align="center">
-<img height="600px" src="pics\readme\tablet.png"></p>
+<img height="600px" src="readme\tablet.png"></p>
 
 <h2>Responsividade para Desktop</h2>
 <p align="center">
-<img src="pics\readme\notebook.png" widht="400px"></p>
+<img src="readme\notebook.png" widht="400px"></p>
 
 
 
